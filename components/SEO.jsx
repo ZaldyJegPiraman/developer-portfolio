@@ -25,7 +25,7 @@ function SEO({ data }) {
 			<meta property="twitter:description" content={data.description} />
 			<meta property="twitter:image" content={data.image} />
 			<meta name="robots" content="Index" />
-			<link rel="manifest" href="/manifest.json" />
+			<link rel="manifest" href="/developer-portfolio/manifest.json" />
 			{/* Favicon */}
 			<link rel="apple-touch-icon" sizes="120x120" href="./favicon.png" />
 			<link
