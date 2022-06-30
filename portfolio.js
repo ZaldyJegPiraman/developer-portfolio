@@ -30,7 +30,7 @@ export const skillsSection = {
 	data: [
 		{
 			title: "Full Stack Development",
-			lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/developer-portfolio/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
 					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
@@ -86,7 +86,7 @@ export const skillsSection = {
 		},
 		{
 			title: "Cloud Infra-Architecture",
-			lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/developer-portfolio/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji("⚡ Experience of working on multiple cloud platforms"),
 				emoji(
@@ -141,7 +141,7 @@ export const skillsSection = {
 		},
 		{
 			title: "Blockchain",
-			lottieAnimationFile: "/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+			lottieAnimationFile: "/developer-portfolio/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
 					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
@@ -217,7 +217,7 @@ export const experience = [
 	{
 		role: "API Engineer",
 		company: "Duseca Software",
-		companylogo: "/img/icons/common/dusecaSoftware.jpg",
+		companylogo: "/developer-portfolio/img/icons/common/dusecaSoftware.jpg",
 		date: "Jan 2022 – Mar 2022",
 		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
 		// descBullets: [
@@ -228,14 +228,14 @@ export const experience = [
 	{
 		role: "Full Stack Developer",
 		company: "Bleed-AI",
-		companylogo: "/img/icons/common/bleedAI.jpg",
+		companylogo: "/developer-portfolio/img/icons/common/bleedAI.jpg",
 		date: "Sept 2021 - Oct 2021",
 		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
 	},
 	{
 		role: "Backend Developer",
 		company: "Wapidu",
-		companylogo: "/img/icons/common/wapidu.jpg",
+		companylogo: "/developer-portfolio/img/icons/common/wapidu.jpg",
 		date: "Sept 2021",
 		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
 	},
