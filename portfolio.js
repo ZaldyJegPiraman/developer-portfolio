@@ -4,7 +4,7 @@ export const greetings = {
 	name: "Zaldy Jeg Piraman",
 	title: "Hi all, I'm Zaldy",
 	description:
-		"I'm passionate Full Stack web developer having an experience of web applications with Python, Django, React.js, Next.js and Blockchain development on Ethereum, Solidity, Web3.js, Moralis, and Brownie Framework.",
+		"I'm passionate Software Engineer and Full Stack web developer having an experience of web applications with Asp.Net Web Forms, Asp.Net MVC, Asp.Net Core, Angular, ReactJS, Wordpress and Application Development Like Data Mining, Document / Image Converter, Productivity Tool and OCR Application",
 	resumeLink:
 		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
 };
@@ -16,11 +16,9 @@ export const openSource = {
 export const contact = {};
 
 export const socialLinks = {
-	facebook: "https://www.facebook.com/1hanzla100",
-	instagram: "https://www.instagram.com/1hanzla100",
-	twitter: "https://twitter.com/1hanzla100",
-	github: "https://github.com/1hanzla100",
-	linkedin: "https://www.linkedin.com/in/1hanzla100/",
+	google: "https://mail.google.com/mail/u/?authuser=zaldyjeg.piraman@gmail.com",
+	twitter: "https://twitter.com/JegZaldy",
+	github: "https://github.com/zaldyjegpiraman",
 };
 
 export const skillsSection = {
@@ -33,11 +31,14 @@ export const skillsSection = {
 			lottieAnimationFile: "/developer-portfolio/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
 			skills: [
 				emoji(
-					"⚡ Building responsive Single-Page-Apps (SPA) & PWA in React.js"
+					"⚡ Building responsive Web Application using Asp.Net MVC / Core"
 				),
-				emoji("⚡ Building responsive static websites using Next.js"),
+				emoji("⚡ Building responsive static websites using Wordpress"),
 				emoji(
-					"⚡ Building RESTful APIs in Django & Django REST Framework"
+					"⚡ Building RESTful APIs in Asp.Net Core REST Framework"
+				),
+				emoji(
+					"⚡ Building Complex Application using 3rd Party Library and API like DevExpress, HangFire, HTMLAgilityPack, Google API, Microsoft API, Google Charts And Paypal REST API"
 				),
 			],
 			softwareSkills: [
@@ -62,17 +63,24 @@ export const skillsSection = {
 					fontAwesomeClassname: "vscode-icons:file-type-light-next",
 				},
 				{
-					skillName: "Python",
-					fontAwesomeClassname: "logos:python",
+					skillName: "JQuery",
+					fontAwesomeClassname: "logos:jquery",
 				},
 				{
-					skillName: "Django",
-					fontAwesomeClassname: "vscode-icons:file-type-django",
+					skillName: "Wordpress",
+					fontAwesomeClassname: "logos:wordpress",
 				},
-
 				{
-					skillName: "Redux",
-					fontAwesomeClassname: "logos:redux",
+					skillName: "MSSQL",
+					fontAwesomeClassname: "vscode-icons:file-type-sql",
+				},
+				{
+					skillName: "ASP Web Forms",
+					fontAwesomeClassname: "vscode-icons:file-type-aspx",
+				},
+				{
+					skillName: "ASP MVC",
+					fontAwesomeClassname: "vscode-icons:file-type-asp",
 				},
 				{
 					skillName: "NPM",
@@ -93,7 +101,7 @@ export const skillsSection = {
 					"⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases"
 				),
 				emoji(
-					"⚡ Building CI/CD pipelines for automated testing & deployment using Github Actions"
+					"⚡ Experience in Github Repository and deployment using Github Actions"
 				),
 			],
 			softwareSkills: [
@@ -106,180 +114,243 @@ export const skillsSection = {
 					fontAwesomeClassname: "logos:microsoft-azure",
 				},
 				{
-					skillName: "Heroku",
-					fontAwesomeClassname: "logos:heroku-icon",
-				},
-				{
-					skillName: "PostgreSQL",
-					fontAwesomeClassname: "logos:postgresql",
-				},
-				{
 					skillName: "Github",
 					fontAwesomeClassname: "akar-icons:github-fill",
-				},
-				{
-					skillName: "Docker",
-					fontAwesomeClassname: "logos:docker-icon",
 				},
 				{
 					skillName: "Github Actions",
 					fontAwesomeClassname: "logos:github-actions",
 				},
-				{
-					skillName: "Cloudinary",
-					fontAwesomeClassname: "logos:cloudinary",
-				},
-				{
-					skillName: "Nginx",
-					fontAwesomeClassname: "logos:nginx",
-				},
-				{
-					skillName: "Sentry",
-					fontAwesomeClassname: "logos:sentry-icon",
-				},
+
 			],
 		},
-		{
-			title: "Blockchain",
-			lottieAnimationFile: "/developer-portfolio/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
-			skills: [
-				emoji(
-					"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
-				),
-				emoji(
-					"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
-				),
-				emoji(
-					"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
-				),
-				emoji(
-					"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
-				),
-				emoji(
-					"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
-				),
-			],
-			softwareSkills: [
-				{
-					skillName: "Ethereum",
-					fontAwesomeClassname: "logos:ethereum",
-				},
-				{
-					skillName: "Solidity",
-					fontAwesomeClassname: "logos:solidity",
-				},
-				{
-					skillName: "Web3js",
-					fontAwesomeClassname: "logos:web3js",
-				},
-				{
-					skillName: "Metamask",
-					fontAwesomeClassname: "logos:metamask-icon",
-				},
-				{
-					skillName: "Ganache",
-					fontAwesomeClassname: "logos:ganache-icon",
-				},
-			],
-		},
+		// {
+		// 	title: "Blockchain",
+		// 	lottieAnimationFile: "/developer-portfolio/lottie/skills/ethereum.json", // Path of Lottie Animation JSON File
+		// 	skills: [
+		// 		emoji(
+		// 			"⚡ Experience in developing Smart Contract using Solidity & Ethereum"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Building Scripts for automated testing & deployment of Smart Contracts using Brownie & Infura"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Experience of using Openzeppelin Smart Contract Standards & Chainlink Oracles"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Developing NFT Smart Contracts using ERC-721 Token Standard"
+		// 		),
+		// 		emoji(
+		// 			"⚡ Building Dapps with React.js & Solidity using Web3.js, Moralis & IPFS"
+		// 		),
+		// 	],
+		// 	softwareSkills: [
+		// 		{
+		// 			skillName: "Ethereum",
+		// 			fontAwesomeClassname: "logos:ethereum",
+		// 		},
+		// 		{
+		// 			skillName: "Solidity",
+		// 			fontAwesomeClassname: "logos:solidity",
+		// 		},
+		// 		{
+		// 			skillName: "Web3js",
+		// 			fontAwesomeClassname: "logos:web3js",
+		// 		},
+		// 		{
+		// 			skillName: "Metamask",
+		// 			fontAwesomeClassname: "logos:metamask-icon",
+		// 		},
+		// 		{
+		// 			skillName: "Ganache",
+		// 			fontAwesomeClassname: "logos:ganache-icon",
+		// 		},
+		// 	],
+		// },
 	],
 };
 
 export const SkillBars = [
 	{
-		Stack: "Frontend/Design", //Insert stack or technology you have experience in
-		progressPercentage: "90", //Insert relative proficiency in percentage
+		Stack: "Asp.Net MVC", //Insert stack or technology you have experience in
+		progressPercentage: "100", //Insert relative proficiency in percentage
 	},
 	{
-		Stack: "Backend",
+		Stack: "Asp.Net Core",
+		progressPercentage: "60",
+	},
+	{
+		Stack: "Asp.Net Web Forms",
+		progressPercentage: "60",
+	},
+	{
+		Stack: "C#",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "Entity Framework",
+		progressPercentage: "80",
+	},
+	{
+		Stack: "HTML5",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "CSS3",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "JavaScript",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "Bootstrap 3",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "JQuery",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "MSSQL Database",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "WORDPRESS",
 		progressPercentage: "70",
 	},
 	{
-		Stack: "Programming",
+		Stack: "Angular",
 		progressPercentage: "60",
+	},
+	{
+		Stack: "ReactJS",
+		progressPercentage: "60",
+	},
+	{
+		Stack: "NextJS",
+		progressPercentage: "30",
 	},
 ];
 
 export const educationInfo = [
 	{
-		schoolName: "Harvard University",
-		subHeader: "Master of Science in Computer Science",
-		duration: "September 2017 - April 2019",
-		desc: "Participated in the research of XXX and published 3 papers.",
+		schoolName: "STI College",
+		subHeader: "Bachelor of Science in Information Technology",
+		duration: "June 2006 - May 2010",
+		desc: "Participated in the development of the following projects for learning purposes.",
 		descBullets: [
-			"Lorem ipsum dolor sit amet, consectetur adipdfgiscing elit",
-			"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+			"Timekeeping and Payroll with Biometrics (Thesis Project)",
+			"Baccarat Scoreboard (Freelance Project for Casino Widus)",
 		],
 	},
 ];
 
 export const experience = [
 	{
-		role: "API Engineer",
-		company: "Duseca Software",
-		companylogo: "/developer-portfolio/img/icons/common/dusecaSoftware.jpg",
-		date: "Jan 2022 – Mar 2022",
-		desc: "I worked as API Engineer on a Kale App. Kale is a community platform for the creation of social reviews based on verified transactions. I built Fully Optimized and High Performance RESTful APIs using Django, DjangoRESTFramework, PostgresSQL, JWT Authentication, AWS, Integrated Plaid APIs for Fetching Bank Transactions, Integrated Sentry for monitoring Django Server and deployed the API on Heroku Server.",
+		role: "Junior Developer",
+		company: "Yempo Inc.",
+		companylogo: "/developer-portfolio/img/icons/common/yempo2.png",
+		date: "Aug 2019 – Sept 2019",
+		desc: "I worked as Junior Developer on a AEL Web App. AEL is a Asset Management platform created in Asp.NET MVC with a unique, robust system offering, to help mange the business better and differentiate AEL from its competitors. I troubleshoot some issue's and built a code that will connect AEL to LOC8 API.",
 		// descBullets: [
 		// 	"Lorem ipsum dolor sit amet, consdfgectetur adipiscing elit",
 		// 	"Lorem ipsum dolor sit amet, consectetur adipiscing elit",
 		// ],
 	},
 	{
-		role: "Full Stack Developer",
-		company: "Bleed-AI",
-		companylogo: "/developer-portfolio/img/icons/common/bleedAI.jpg",
-		date: "Sept 2021 - Oct 2021",
-		desc: "Worked as django web developer to create a website in which I integrated computer vision AI model (built by the team of BleedAI) to process YouTube URLs and show Real Time processing on Website using Django Channels WebSockets , threading for running multiple instances of AI Model, jQuery for UI rendering and deployed it on Heroku server.",
+		role: "IT Engineer",
+		company: "Gulf Networks Security Solution",
+		companylogo: "/developer-portfolio/img/icons/common/gulfnetworks.jpg",
+		date: "Feb 2017 - Aug 2018",
+		desc: "Worked as System Administrator and Full Stack Web developer to create a E-Commerce website in wordpress and Online Survey Application in Asp.Net Core that can be use by different customer. While Creating Web Application I also work as System Administrator to maintain server, computers, networks, files, software, configure camera system, and troubleshoot some technical problems in the office.",
 	},
 	{
-		role: "Backend Developer",
-		company: "Wapidu",
-		companylogo: "/developer-portfolio/img/icons/common/wapidu.jpg",
-		date: "Sept 2021",
-		desc: "Worked as a Django Developer to integrate Stripe payment gateway in wapidu.com and Created REST APIs using Django REST Framework to integrate Django Stripe backend to Vue.js Frontend and Deployed it on Azure based Docker container registry.",
+		role: "Freelance Programmer",
+		company: "Cybersoft Content Services Inc.",
+		companylogo: "/developer-portfolio/img/icons/common/cyber.png",
+		date: "May 2016 - Jan 2017",
+		desc: "Worked as a Freelance Programmer to create Data Mining Application and Participate on creating CATS Web Application. My part is to create a Web Document Viewer that can view different type of documents like PDF, TIFF, JPG, PNG, Text, WORD, Excel, PowerPoint, DBF and XML files and also allow the cybersoft clients to view status and add comments.",
+	},
+	{
+		role: "Software Engineer III",
+		company: "PCM Inc.",
+		companylogo: "/developer-portfolio/img/icons/common/pcm.png",
+		date: "Jul 2015 - May 2016",
+		desc: "Worked as a Software Engineer to maintain, add features and convert to mobile responsive the Opstrack e-Procurement System. The application was created in Asp.Net Web Forms with mix C# and VB code connected in MSSQL Database.",
+	},
+	{
+		role: "System Developer",
+		company: "Wellcom Telecom Supermarket",
+		companylogo: "/developer-portfolio/img/icons/common/wellcom.jpg",
+		date: "Nov 2014 - Jul 2015",
+		desc: "Worked as a System Developer to maintain Dashboard Web Application, Create new version of Sales Performance Web Application built in Asp.Net Core, Create Data Collector Web Application that will transfer the data of old ERP System to Microsoft Navision system.",
+	},
+	{
+		role: "System Developer",
+		company: "Cybersoft Content Services Inc.",
+		companylogo: "/developer-portfolio/img/icons/common/cyber.png",
+		date: "Mar 2011 - May 2014",
+		desc: "Worked as a System Developer to create Data Mining Application, OCR Application, Image/Document Converter, Productivity Tool and Maintain some legacy application created visual foxpro, DOS Application",
 	},
 ];
 
 export const projects = [
 	{
-		name: "AtlasMart",
-		desc: "With Atlas Mart, it’s easy to find the products with the best price and ship them straight to your door.",
-		link: "https://atlasmart.netlify.app/",
+		name: "Zaldy's E-Commerce Web Application",
+		desc: "Zaldy's E-Commerce is a electronic e-commerce store created in Asp.Net MVC with MSSQL Database hosted in Amazon EC2 Instance",
+		github: "https://github.com/ZaldyJegPiraman/AspMVCECommerce.git",
+		link: "http://zaldysecommerce.cloudns.ph/",
+		video: "https://youtu.be/ta7UYgGddwc",
 	},
 	{
-		name: "Technota (Forum)",
-		desc: "Get hands-on experience in technical skills with Technota",
-		link: "https://technota.netlify.app/",
+		name: "Gulfnetworks CVS Application (Online Survey Application)",
+		desc: "CVS Application is a survey application created in Asp.Net Core hosted in Microsoft Azure. This application have reports, manage customer account and can also be use by multiple clients.",
+		image: "https://www.dropbox.com/sh/bmsps6rap3vegqu/AACpQFotshu5uNC1dT6fAS8ia?dl=0",
 	},
 	{
-		name: "Shopaza (Ecommerce)",
-		desc: "Now your reach to all your favorite entertainment and luxury items is just one touch apart",
-		link: "https://shopaza.herokuapp.com/",
+		name: "Gulfnetworks Ecommerce",
+		desc: "Gulfnetworks Ecommerce is a electronic e-commerce store created in wordpress the customer can search,view product and ask for quotation.",
+		image: "https://www.dropbox.com/sh/0ho9htvvdi5594s/AABgURhsJtFaX0ZvCPIfO6AEa?dl=0",
 	},
 	{
-		name: "MMFmelody (Blog)",
-		desc: "Here you will find amazing tips about health, beauty, and modern-day life.",
+		name: "Cybersoft CATS Web Application",
+		desc: "Cybersoft CATS is Collaborative Activity Tracking System created in asp.net mvc this application allow customer to view finished documents completed by cybersoft production team. the client can add comment if the finished documents have issues.",
 		// github: "https://github.com/1hanzla100",
-		link: "https://mmfmelody.herokuapp.com/",
+		image: "https://www.dropbox.com/sh/zwpyc4vt6s57q8e/AADcCO75d6lckhC7h6tTNh7Za?dl=0",
 	},
 	{
-		name: "Developer-Portfolio",
-		desc: "Software Developer Portfolio Template built with react.js and next.js bootstrap that helps you showcase your work and skills as a software developer.",
-		github: "https://github.com/1hanzla100/developer-portfolio",
-		link: "https://developer-portfolio-1hanzla100.vercel.app/",
+		name: "Cybersoft Application's",
+		desc: "Cybersoft Document Collector is used to organize and save documents to database from different source like cd's, cloud drives, local drives and OCR Application use to extract text from images",
+		// github: "https://github.com/1hanzla100",
+		image: "https://www.dropbox.com/sh/pek3rbmizlin452/AACN00kx4AQuP4YBlsmQCFAEa?dl=0",
+	},
+	{
+		name: "PCM Opstrack Application",
+		desc: "Opstrack application is a E-Procurement solution created in Asp.Net Web Forms that provide customer safe purchases and it also integrated to most of ERP Systems",
+		image: "https://www.dropbox.com/sh/nst4sdnuag5jenj/AACy7HidJXR90-JZtd4f2fFJa?dl=0",
+	},
+	{
+		name: "Wellcom Telecom Dashboard Application",
+		desc: "Wellcom Dashboard Application is use to monitor sales by month, year, or by store.",
+		image: "https://www.dropbox.com/sh/mc9yijt758070we/AADGX2QGT1sNbwonC1kGFTPsa?dl=0",
+	},
+	{
+		name: "Wellcom Telecom Sales Performance Application",
+		desc: "Wellcom Sales Performance Application is use to monitor sales history and sales performance of employees.",
+		image: "https://www.dropbox.com/sh/z0s34dgjlz5zp1j/AACt8h51p_WxcIIPj2IivNnca?dl=0",
 	},
 ];
 
-export const feedbacks = [
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-	{
-		name: "John Smith",
-		feedback:
-			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
-	},
-];
+// export const feedbacks = [
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// 	{
+// 		name: "John Smith",
+// 		feedback:
+// 			"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi, vel illo. Eum magnam beatae ratione eos natus accusamus unde pariatur fugiat at facilis, modi molestiae? Labore odio sit eligendi. Tenetur.",
+// 	},
+// ];

@@ -40,7 +40,39 @@ const ProjectsCard = ({ data }) => {
 											<i className="fa fa-arrow-right mr-2" />
 										</span>
 										<span className="nav-link-inner--text ml-1">
-											Demo
+											App Demo
+										</span>
+									</Button>
+								) : null}
+								{data.video ? (
+									<Button
+										className="btn-icon"
+										color="success"
+										href={data.video}
+										target="_blank"
+										rel="noopener" aria-label="Twitter"
+									>
+										<span className="btn-inner--icon">
+											<i className="fa fa-youtube-play mr-2" />
+										</span>
+										<span className="nav-link-inner--text ml-1">
+											Video Demo
+										</span>
+									</Button>
+								) : null}
+								{data.image ? (
+									<Button
+										className="btn-icon"
+										color="success"
+										href={data.image}
+										target="_blank"
+										rel="noopener" aria-label="Twitter"
+									>
+										<span className="btn-inner--icon">
+											<i className="fa fa-picture-o mr-2" />
+										</span>
+										<span className="nav-link-inner--text ml-1">
+											Screenshot
 										</span>
 									</Button>
 								) : null}

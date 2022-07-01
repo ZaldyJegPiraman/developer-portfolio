@@ -161,6 +161,22 @@ const Navigation = () => {
 										</NavLink>
 									</NavItem>
 								)}
+								{socialLinks.google && (
+									<NavItem>
+										<NavLink
+											rel="noopener"
+											aria-label="Twitter"
+											className="nav-link-icon"
+											href={socialLinks.google}
+											target="_blank"
+										>
+											<i className="fa fa-google-plus-square" />
+											<span className="nav-link-inner--text d-lg-none ml-2">
+											    Google+
+											</span>
+										</NavLink>
+									</NavItem>
+								)}
 							</Nav>
 						</UncontrolledCollapse>
 					</Container>
