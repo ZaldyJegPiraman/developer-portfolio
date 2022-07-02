@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm passionate Software Engineer and Full Stack web developer having an experience of web applications with Asp.Net Web Forms, Asp.Net MVC, Asp.Net Core, Angular, ReactJS, Wordpress and Application Development Like Data Mining, Document / Image Converter, Productivity Tool and OCR Application",
 	resumeLink:
-		"https://www.dropbox.com/s/mwwx7dy8zrztbkb/Zaldy%20Resume%20Latest%202022.pdf?dl=0",
+		"https://www.dropbox.com/s/a4a4dym36cq6v6p/Zaldy%20Resume%20Latest%202022.pdf?dl=0",
 };
 
 export const openSource = {
