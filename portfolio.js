@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm passionate Software Engineer and Full Stack web developer having an experience of web applications with Asp.Net Web Forms, Asp.Net MVC, Asp.Net Core, Angular, ReactJS, Wordpress and Application Development Like Data Mining, Document / Image Converter, Productivity Tool and OCR Application",
 	resumeLink:
-		"https://drive.google.com/file/d/1Jj4QvvMMhRZQrxngrvlhmuTLhgcisaAp/view?usp=sharing",
+		"https://www.dropbox.com/s/yf6843kyp65bbim/Zaldy%20Resume%20Latest%202022.pdf?dl=0",
 };
 
 export const openSource = {
@@ -188,8 +188,8 @@ export const SkillBars = [
 		progressPercentage: "100",
 	},
 	{
-		Stack: "Entity Framework",
-		progressPercentage: "80",
+		Stack: "Entity Framework 6.0",
+		progressPercentage: "100",
 	},
 	{
 		Stack: "HTML5",
@@ -212,12 +212,20 @@ export const SkillBars = [
 		progressPercentage: "100",
 	},
 	{
+		Stack: "AJAX",
+		progressPercentage: "100",
+	},
+	{
+		Stack: "Web API",
+		progressPercentage: "100",
+	},
+	{
 		Stack: "MSSQL Database",
 		progressPercentage: "100",
 	},
 	{
 		Stack: "WORDPRESS",
-		progressPercentage: "70",
+		progressPercentage: "60",
 	},
 	{
 		Stack: "Angular",
@@ -229,7 +237,7 @@ export const SkillBars = [
 	},
 	{
 		Stack: "NextJS",
-		progressPercentage: "30",
+		progressPercentage: "40",
 	},
 ];
 
@@ -309,13 +317,13 @@ export const projects = [
 		image: "https://www.dropbox.com/sh/bmsps6rap3vegqu/AACpQFotshu5uNC1dT6fAS8ia?dl=0",
 	},
 	{
-		name: "Gulfnetworks Ecommerce",
+		name: "Gulfnetworks E-Commerce",
 		desc: "Gulfnetworks Ecommerce is a electronic e-commerce store created in wordpress the customer can search,view product and ask for quotation.",
 		image: "https://www.dropbox.com/sh/0ho9htvvdi5594s/AABgURhsJtFaX0ZvCPIfO6AEa?dl=0",
 	},
 	{
 		name: "Cybersoft CATS Web Application",
-		desc: "Cybersoft CATS is Collaborative Activity Tracking System created in asp.net mvc this application allow customer to view finished documents completed by cybersoft production team. the client can add comment if the finished documents have issues.",
+		desc: "Cybersoft CATS is Collaborative Activity Tracking System created in Asp.Net MVC. This application allow customer to view documents completed by cybersoft production team. The client can add comment if the completed documents have issues. ",
 		// github: "https://github.com/1hanzla100",
 		image: "https://www.dropbox.com/sh/zwpyc4vt6s57q8e/AADcCO75d6lckhC7h6tTNh7Za?dl=0",
 	},
