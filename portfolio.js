@@ -6,7 +6,7 @@ export const greetings = {
 	description:
 		"I'm passionate Software Engineer and Full Stack web developer having an experience of web applications with Asp.Net Web Forms, Asp.Net MVC, Asp.Net Core, Angular, ReactJS, Wordpress and Application Development Like Data Mining, Document / Image Converter, Productivity Tool and OCR Application",
 	resumeLink:
-		"https://www.dropbox.com/s/yf6843kyp65bbim/Zaldy%20Resume%20Latest%202022.pdf?dl=0",
+		"https://www.dropbox.com/s/mwwx7dy8zrztbkb/Zaldy%20Resume%20Latest%202022.pdf?dl=0",
 };
 
 export const openSource = {
@@ -309,7 +309,7 @@ export const projects = [
 		desc: "Zaldy's E-Commerce is a electronic e-commerce store created in Asp.Net MVC with MSSQL Database hosted in Amazon EC2 Instance",
 		github: "https://github.com/ZaldyJegPiraman/AspMVCECommerce.git",
 		link: "http://zaldysecommerce.cloudns.ph/",
-		video: "https://youtu.be/ta7UYgGddwc",
+		video: "https://bit.ly/3OUZ1ht",
 	},
 	{
 		name: "Gulfnetworks CVS Application (Online Survey Application)",
