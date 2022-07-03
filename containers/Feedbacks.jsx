@@ -4,9 +4,10 @@ import { Col, Container, Row } from "reactstrap";
 import FeedbackCard from "../components/FeedbackCard";
 import { Fade } from "react-reveal";
 
+
 const Feedbacks = () => {
 	return (
-		<section className="section section-lg">
+		<section style={{display: "none"}} className="section section-lg">
 
 		</section>
 	);
