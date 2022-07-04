@@ -7,7 +7,7 @@ import { skillsSection } from "../portfolio";
 
 const Skills = () => {
 	return (
-		<Container className="text-center my-5 section section-lg">
+		<Container className="text-center my-5 section section-lg" style={{ paddingBottom: '20px !important;'}}>
 			<h1 className="h1">{skillsSection.title}</h1>
 			<p className="lead">{skillsSection.subTitle}</p>
 			{skillsSection.data.map((section, index) => {
