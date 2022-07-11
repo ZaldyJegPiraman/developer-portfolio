@@ -78,14 +78,6 @@ const ProjectsCard = ({ data }) => {
                   </Button>
                 ) : null}
               </div>
-
-              <style jsx>{`
-                @media only screen and (max-width: 511px) {
-                  .button-margin-mobile {
-                    margin-top: 10px !important;
-                  }
-                }
-              `}</style>
             </div>
           </CardBody>
         </Card>
