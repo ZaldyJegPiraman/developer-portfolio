@@ -30,9 +30,11 @@ export const skillsSection = {
       lottieAnimationFile: "/developer-portfolio/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji(
-          "⚡ Building responsive Web Applications using Asp.Net MVC / Core"
+          "⚡ Building responsive Web Applications using Asp.Net MVC / Core, And Angular"
         ),
-        emoji("⚡ Building responsive static websites using WordPress"),
+        emoji(
+          "⚡ Building responsive static websites using WordPress, ReactJS, And NextJS"
+        ),
         emoji("⚡ Building RESTful APIs in Asp.Net Core REST Framework"),
         emoji(
           "⚡ Building Complex applications using 3rd Party Library and APIs like DevExpress, HangFire, HTMLAgilityPack, Google API, Microsoft API, Google Charts, And Paypal REST API"
@@ -52,11 +54,11 @@ export const skillsSection = {
           fontAwesomeClassname: "logos:javascript",
         },
         {
-          skillName: "Reactjs",
+          skillName: "ReactJS",
           fontAwesomeClassname: "vscode-icons:file-type-reactjs",
         },
         {
-          skillName: "Nextjs",
+          skillName: "NextJS",
           fontAwesomeClassname: "vscode-icons:file-type-light-next",
         },
         {

@@ -4,6 +4,7 @@ import "../styles/styles.css";
 import "../styles/vendor/font-awesome/css/font-awesome.min.css";
 import "../styles/vendor/nucleo/css/nucleo.css";
 import Head from "next/head";
+import Script from "next/script";
 
 function MyApp({ Component, pageProps }) {
   return (

@@ -11,3 +11,6 @@ body > div:first-child {
     font-size: 24px !important;
   }
 }
+#JQuery > svg {
+  transform: scale(1.5) !important;
+}
