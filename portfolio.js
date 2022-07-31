@@ -27,7 +27,7 @@ export const skillsSection = {
   data: [
     {
       title: "Full Stack Development",
-      lottieAnimationFile: "/developer-portfolio/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "/lottie/skills/fullstack.json", // Path of Lottie Animation JSON File
       skills: [
         emoji(
           "⚡ Building responsive Web Applications using Asp.Net MVC / Core, And Angular"
@@ -93,7 +93,7 @@ export const skillsSection = {
     },
     {
       title: "Cloud Infra-Architecture",
-      lottieAnimationFile: "/developer-portfolio/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
+      lottieAnimationFile: "/lottie/skills/cloudinfra.json", // Path of Lottie Animation JSON File
       skills: [
         emoji("⚡ Experience in working on multiple cloud platforms"),
         emoji(
@@ -256,7 +256,7 @@ export const experience = [
   {
     role: "Junior Developer",
     company: "Yempo Inc.",
-    companylogo: "/developer-portfolio/img/icons/common/yempo2.png",
+    companylogo: "/img/icons/common/yempo2.png",
     date: "Aug 2019 – Sept 2019",
     desc: "I worked as Junior Developer on an AEL Web App. AEL is an Asset Management platform created in Asp.NET MVC with a unique, robust system offering to help manage the business better and differentiate AEL from its competitors. I troubleshot some issues and built a code that will connect AEL to LOC8 API.",
     // descBullets: [
@@ -267,35 +267,35 @@ export const experience = [
   {
     role: "IT Engineer",
     company: "Gulf Networks Security Solution",
-    companylogo: "/developer-portfolio/img/icons/common/gulfnetworks.jpg",
+    companylogo: "/img/icons/common/gulfnetworks.jpg",
     date: "Feb 2017 - Aug 2018",
     desc: "Worked as System Administrator and Full Stack Web developer to create an E-Commerce website in WordPress and Online Survey Application in Asp.Net Core that different customers can use. While Creating Web Applications, I also work as System Administrator to maintain servers, computers, networks, files, and software, configure camera systems, and troubleshoot some technical problems in the office.",
   },
   {
     role: "Freelance Programmer",
     company: "Cybersoft Content Services Inc.",
-    companylogo: "/developer-portfolio/img/icons/common/cyber.png",
+    companylogo: "/img/icons/common/cyber.png",
     date: "May 2016 - Jan 2017",
     desc: "Worked as a Freelance Programmer to create Data Mining applications and Participated in designing the CATS Web Application. My part is to create a Web Document Viewer that can view different documents like PDF, TIFF, JPG, PNG, Text, WORD, Excel, PowerPoint, DBF, and XML files and also allow the Cybersoft clients to view status and add comments.",
   },
   {
     role: "Software Engineer III",
     company: "PCM Inc.",
-    companylogo: "/developer-portfolio/img/icons/common/pcm.png",
+    companylogo: "/img/icons/common/pcm.png",
     date: "Jul 2015 - May 2016",
     desc: "Worked as a Software Engineer to maintain, add features, and convert the Opstrack e-Procurement System to mobile responsive and was developed in Asp.Net Web Forms with a mix of C# and VB code connected to the MSSQL Database.",
   },
   {
     role: "System Developer",
     company: "Wellcom Telecom Supermarket",
-    companylogo: "/developer-portfolio/img/icons/common/wellcom.jpg",
+    companylogo: "/img/icons/common/wellcom.jpg",
     date: "Nov 2014 - Jul 2015",
     desc: "Worked as a System Developer to maintain Dashboard Web Application, Created a new version of Sales Performance Web Application built in Asp.Net Core, Created Data Collector Web Application that will transfer the data of old ERP System to Microsoft Navision system.",
   },
   {
     role: "System Developer",
     company: "Cybersoft Content Services Inc.",
-    companylogo: "/developer-portfolio/img/icons/common/cyber.png",
+    companylogo: "/img/icons/common/cyber.png",
     date: "Mar 2011 - May 2014",
     desc: "Worked as a System Developer to create Data Mining Application, OCR Application, Image/Document Converter, Productivity Tool and Maintained some legacy applications made in visual FoxPro, DOS Application.",
   },
