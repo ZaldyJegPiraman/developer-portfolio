@@ -14,3 +14,7 @@ body > div:first-child {
 #JQuery > svg {
   transform: scale(1.5) !important;
 }
+
+#Wordpress > svg {
+  transform: scale(1.5) !important;
+}

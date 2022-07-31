@@ -17,16 +17,16 @@ import SEO from "../components/SEO";
 import React, { useState, useEffect } from "react";
 
 export default function Home({ githubProfileData }) {
-  const [_document] = React.useState(null);
+  // const [_document] = React.useState(null);
 
-  React.useEffect(() => {
-    document.addEventListener("DOMContentLoaded", function () {
-      console.log("page loading complete!");
-      document
-        .getElementById("Wordpress")
-        .childNodes[0].setAttribute("viewBox", "0 0 112 117");
-    });
-  }, []);
+  // React.useEffect(() => {
+  //   document.addEventListener("DOMContentLoaded", function () {
+  //     console.log("page loading complete!");
+  //     document
+  //       .getElementById("Wordpress")
+  //       .childNodes[0].setAttribute("viewBox", "0 0 112 117");
+  //   });
+  // }, []);
 
   return (
     <div>
