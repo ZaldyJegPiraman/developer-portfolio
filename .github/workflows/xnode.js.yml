@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        node-version: [16.x]
+        node-version: [18.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
     steps:
     - uses: actions/checkout@v3
@@ -20,6 +20,8 @@ jobs:
         cache: 'npm'
         
     - run: yarn install -g --frozen-lockfile
+    - run: npm install -g   
+    - run: npm ci
     - run: yarn run build
     - run: yarn add gh-pages 
     - run: yarn next export
