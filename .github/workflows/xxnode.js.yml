@@ -19,9 +19,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
         
-    - run: yarn install -g
+    - run: yarn install --frozen-lockfile
     - run: npm install -g   
-    - run: npm install --package-lock
     - run: npm ci
     - run: yarn run build
     - run: yarn add gh-pages 
