@@ -21,8 +21,9 @@ jobs:
         
 
     - run: npm install -g   
+    - run: npm install --package-lock
     - run: npm ci
-    - run: yarn install -g --frozen-lockfile
+    - run: yarn install -g 
     - run: yarn run build
     - run: yarn add gh-pages 
     - run: yarn next export
